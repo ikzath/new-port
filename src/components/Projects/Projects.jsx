@@ -14,7 +14,7 @@ const Projects = () => {
 
   useEffect(() => {
     if (window.innerWidth > 769) {
-      setIsDesktop(true);
+      setIsDesktop(true); 
       setIsMobile(false);
     } else {
       setIsMobile(true);
@@ -49,14 +49,14 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
+                      {url && (<a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
                         See Live
-                      </a>
+                      </a> )}
 
                       {repo && (
                         <a
@@ -80,12 +80,13 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
-                      <a
+                      {/* Link to see project's live version */}
+                      {/* <a
                         href={url || '#!'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
-                      >
+                      > */}
                         <Tilt
                           options={{
                             reverse: false,
@@ -103,7 +104,7 @@ const Projects = () => {
                             <ProjectImg alt={title} filename={img} />
                           </div>
                         </Tilt>
-                      </a>
+                      {/* </a> */}
                     </div>
                   </Fade>
                 </Col>

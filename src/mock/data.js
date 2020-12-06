@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Portfolio', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -21,37 +21,46 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'wildfire-snap.png',
+    title: 'React JS Wildfire Tracker',
+    info: 'React Hooks, Google-React-Map API, NASA APi ',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/ikzath/WILDFIRE-TRACKER-NASA-API', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'amazon-snap.png',
+    title: 'Amazon Clone React JS & Firebase (in progress)',
+    info: 'React Context API, Flexbox, Firebase Authentication',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://clone-c369a.web.app/',
+    repo: 'https://github.com/ikzath/Amazon-Clone-ReactJS-Firebase', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'expense.png',
+    title: 'React JS Expense Tracker',
+    info: 'Node JS, Express, MongoDb Atlas, EJS UI Templating ',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/ikzath/React-Context-API-Project', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'pathway.png',
+    title: 'An academic institutional website',
+    info: 'HTML; CSS, JAVASCRIPT & JQuery',
+    info2: '',
+    url: 'https://pathwayinternational.com', // if no repo, the button will not show up
+    repo: 'https://github.com/ikzath/pathway-international-college',
   },
 ];
 
@@ -78,17 +87,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/ikzath/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ikzath',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
