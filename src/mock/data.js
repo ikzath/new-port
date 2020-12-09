@@ -48,7 +48,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'expense.png',
     title: 'React JS Expense Tracker',
-    info: 'Node JS, Express, MongoDb Atlas, EJS UI Templating ',
+    info: 'React Hooks, Materiial UI & Context API ',
     info2: '',
     url: '',
     repo: 'https://github.com/ikzath/React-Context-API-Project', // if no repo, the button will not show up
@@ -59,7 +59,7 @@ export const projectsData = [
     title: 'An academic institutional website',
     info: 'HTML; CSS, JAVASCRIPT & JQuery',
     info2: '',
-    url: 'https://pathwayinternational.com', // if no repo, the button will not show up
+    url: 'https://www.pathwayinternational.com', // if no repo, the button will not show up
     repo: 'https://github.com/ikzath/pathway-international-college',
   },
 ];
@@ -77,12 +77,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      // url: '',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      // url: '',
     },
     {
       id: nanoid(),

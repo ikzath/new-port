@@ -46,8 +46,10 @@ const About = () => {
                   'A Full-Stack web developer and daydreamer!'}
                   </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Focused on HTMT/CSS, JavaScript, React JS, PHP, Node JS etc,.. Dream of building some new pieces of revolutionary software integrating AI concepts.'}
+                  {paragraphThree || 'Focused on HTMT/CSS, JavaScript, React JS, PHP, Node JS, React Native etc,.'}
                 </p>
+                <p className="about-wrapper__info-text">
+                Dream of building some new pieces of revolutionary software integrating AI concepts                </p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a

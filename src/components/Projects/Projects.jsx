@@ -111,6 +111,7 @@ const Projects = () => {
               </Row>
             );
           })}
+          <p style={{color: 'blue'}}>Please checkout my Github page for more projects</p>
         </div>
       </Container>
     </section>

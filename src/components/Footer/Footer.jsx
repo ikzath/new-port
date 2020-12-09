@@ -26,9 +26,9 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || ''}
+                  href={url || '#'}
                   rel="noopener noreferrer"
-                  target="_blank"
+                  target=""
                   aria-label={name}
                 >
                   <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
@@ -39,8 +39,8 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} - Ikzath Kalanthar{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">            
-          </a>
+          {/* <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">            
+          </a> */}
         </p>
 
         {isEnabled && <GithubButtons />}
