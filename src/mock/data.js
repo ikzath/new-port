@@ -21,6 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
+  para4: 'Dream of building some new pieces of revolutionary software integrating AI concepts',
   resume: '', // if no resume, the button will not show up
 };
 

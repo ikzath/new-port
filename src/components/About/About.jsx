@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, para4, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -48,9 +48,9 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Focused on HTMT/CSS, JavaScript, React JS, PHP, Node JS, React Native etc,.'}
                 </p>
-                <p className="about-wrapper__info-text">
-                Dream of building some new pieces of revolutionary software integrating AI concepts                </p>
-                {resume && (
+                <p className="about-wrapper__info-text"> {para4}
+                </p>
+                {/* {resume && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
@@ -61,7 +61,7 @@ const About = () => {
                       Resume
                     </a>
                   </span>
-                )}
+                )} */}
               </div>
             </Fade>
           </Col>
