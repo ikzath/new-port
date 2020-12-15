@@ -29,6 +29,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'spacex.png',
+    title: 'iMessage Clone React JS',
+    info: 'React Hooks, Materiial UI, Redux, Firebase Auth & Firestore ',
+    info2: '',
+    url: 'https://i-message-clone-c739c.web.app/',
+    repo: 'https://github.com/ikzath/iMessage-Clone', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'wildfire-snap.png',
     title: 'React JS Wildfire Tracker',
     info: 'React Hooks, Google-React-Map API, NASA APi ',
@@ -39,21 +48,13 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'amazon-snap.png',
-    title: 'Amazon Clone React JS & Firebase (in progress)',
-    info: 'React Context API, Flexbox, Firebase Authentication',
+    title: 'Amazon Clone React JS, Firebase & Stripe JS (in progress)',
+    info: 'React Context API, Material UI, Hooks Firebase Authentication',
     info2: '',
     url: 'https://clone-c369a.web.app/',
     repo: 'https://github.com/ikzath/Amazon-Clone-ReactJS-Firebase', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'expense.png',
-    title: 'React JS Expense Tracker',
-    info: 'React Hooks, Materiial UI & Context API ',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/ikzath/React-Context-API-Project', // if no repo, the button will not show up
-  },
+  
   {
     id: nanoid(),
     img: 'pathway.png',
