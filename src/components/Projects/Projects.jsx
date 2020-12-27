@@ -11,6 +11,7 @@ const Projects = () => {
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const githubPage = 'https://github.com/ikzath';
 
   useEffect(() => {
     if (window.innerWidth > 769) {
@@ -111,7 +112,7 @@ const Projects = () => {
               </Row>
             );
           })}
-          <p style={{color: 'blue'}}>Please checkout my Github page for more projects</p>
+          <p style={{color: 'blue'}}>Please checkout my <a href={githubPage} target={'_blank'}>Github</a> page for more projects</p>
         </div>
       </Container>
     </section>

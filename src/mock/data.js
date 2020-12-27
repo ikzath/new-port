@@ -27,6 +27,17 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+
+  {
+    id: nanoid(),
+    img: 'netflix.png',
+    title: 'Netflix Clone',
+    info: 'React JS, React Hooks, Material UI, Firebase',
+    info2: '...includes Youtube trailers',
+    url: 'https://netflix-clone-4febb.web.app/', // if no repo, the button will not show up
+    repo: 'https://github.com/ikzath/netflix-clone.git',
+  },
+
   {
     id: nanoid(),
     img: 'spacex.png',
@@ -55,8 +66,9 @@ export const projectsData = [
     repo: 'https://github.com/ikzath/Amazon-Clone-ReactJS-Firebase', // if no repo, the button will not show up
   },
   
-  {
-    id: nanoid(),
+
+{
+  id: nanoid(),
     img: 'pathway.png',
     title: 'An academic institutional website',
     info: 'HTML; CSS, JAVASCRIPT & JQuery',
@@ -64,6 +76,7 @@ export const projectsData = [
     url: 'https://www.pathwayinternational.com', // if no repo, the button will not show up
     repo: 'https://github.com/ikzath/pathway-international-college',
   },
+
 ];
 
 // CONTACT DATA

@@ -11,6 +11,11 @@ const Footer = () => {
   const { networks } = footer;
   const { isEnabled } = githubButtons;
 
+  function changeBackground(e) {
+    e.target.style.background = 'red';
+  }
+
+
   return (
     <footer className="footer navbar-static-bottom">
       <Container>
@@ -26,7 +31,7 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url}
+                  href={url || (onClickCapture={changeBackground}) }
                   rel="noopener noreferrer"
                   target=""
                   aria-label={name}
