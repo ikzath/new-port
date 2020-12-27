@@ -35,6 +35,6 @@ HTML.propTypes = {
   headComponents: PropTypes.array,
   bodyAttributes: PropTypes.object,
   preBodyComponents: PropTypes.array,
-  body: PropTypes.string,
+  body: PropTypes.string, 
   postBodyComponents: PropTypes.array,
 };
