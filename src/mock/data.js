@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: '',
   paragraphTwo: '',
-  paragraphThree: '',
+  paragraphThree: 'I can build customised websites & digital products to suit your individual needs ',
   para4: 'Dream of building some new pieces of revolutionary software integrating AI concepts',
   resume: '', // if no resume, the button will not show up
 };
@@ -33,7 +33,7 @@ export const projectsData = [
     img: 'netflix.png',
     title: 'Netflix Clone',
     info: 'React JS, React Hooks, Material UI, Firebase',
-    info2: '...includes Youtube trailers',
+    info2: 'Functionalities - click on/off on movie thumbnails to watch movie trailers ',
     url: 'https://netflix-clone-4febb.web.app/', // if no repo, the button will not show up
     repo: 'https://github.com/ikzath/netflix-clone.git',
   },
@@ -43,7 +43,7 @@ export const projectsData = [
     img: 'spacex.png',
     title: 'iMessage Clone React JS',
     info: 'React Hooks, Materiial UI, Redux, Firebase Auth & Firestore ',
-    info2: '',
+    info2: 'Functionalities- gmail login, create new chatrooms, send instant messages...',
     url: 'https://i-message-clone-c739c.web.app/',
     repo: 'https://github.com/ikzath/iMessage-Clone', // if no repo, the button will not show up
   },
@@ -52,7 +52,7 @@ export const projectsData = [
     img: 'wildfire-snap.png',
     title: 'React JS Wildfire Tracker',
     info: 'React Hooks, Google-React-Map API, NASA APi ',
-    info2: '',
+    info2: 'Functionalities- click on fire icon to get wildfire details across the globe',
     url: '',
     repo: 'https://github.com/ikzath/WILDFIRE-TRACKER-NASA-API', // if no repo, the button will not show up
   },
@@ -61,7 +61,7 @@ export const projectsData = [
     img: 'amazon-snap.png',
     title: 'Amazon Clone React JS, Firebase & Stripe JS (in progress)',
     info: 'React Context API, Material UI, Hooks Firebase Authentication',
-    info2: '',
+    info2: 'Functionalities- add/delete to basket, total is updated, login or create new account with firebase authentication',
     url: 'https://clone-c369a.web.app/',
     repo: 'https://github.com/ikzath/Amazon-Clone-ReactJS-Firebase', // if no repo, the button will not show up
   },

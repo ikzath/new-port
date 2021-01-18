@@ -12,6 +12,7 @@ const About = () => {
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
+
   useEffect(() => {
     if (window.innerWidth > 769) {
       setIsDesktop(true);
@@ -39,14 +40,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                  '<Hello World /> I am Ikzath Kalanthar from Berlin'}
+                  '<Hello Future /> Ikzath Kalanthar here from Berlin'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                  'A Full-Stack web developer and daydreamer!'}
+                  'A Full-Stack web developer, qualified lawyer, pro telemarketer, tutor/mentor and energy healer.'}
                   </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Passionate over HTMT/CSS, JavaScript, React JS, PHP, Node JS, React Native etc,.'}
+                  {paragraphThree || 'Passion  HTMT/CSS, JavaScript, React JS, PHP, Node JS etc,.'}
                 </p>
                 <p className="about-wrapper__info-text"> {para4}
                 </p>

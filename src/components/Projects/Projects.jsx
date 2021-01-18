@@ -112,7 +112,7 @@ const Projects = () => {
               </Row>
             );
           })}
-          <p style={{color: 'blue'}}>Please checkout my <a href={githubPage} target={'_blank'}>Github</a> page for more projects</p>
+          <p style={{color: 'blue'}}>Please checkout my <a href={githubPage} target={'_blank'}>Github</a> page for more projects including several fullstack projects </p>
         </div>
       </Container>
     </section>
