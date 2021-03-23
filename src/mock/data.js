@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: 'I can build customised websites & digital products to suit your individual needs ',
-  para4: 'Dream of building some new pieces of revolutionary software integrating AI concepts',
+  para4: 'My Passions - Collaboration, Communication, Innovation, Coding & Problem Solving',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -69,12 +69,12 @@ export const projectsData = [
 
 {
   id: nanoid(),
-    img: 'pathway.png',
-    title: 'An academic institutional website',
-    info: 'HTML; CSS, JAVASCRIPT & JQuery',
+    img: 'mern.png',
+    title: 'Restaurant Test App with CRUD functionality',
+    info: 'React, Node JS, Express, Mongo-DB',
     info2: '',
-    url: 'https://www.pathwayinternational.com', // if no repo, the button will not show up
-    repo: 'https://github.com/ikzath/pathway-international-college',
+    url: 'https://infinite-reef-45760.herokuapp.com/', // if no repo, the button will not show up
+    repo: 'https://github.com/ikzath/RESTAURANT-MERN-STACK-APP',
   },
 
 ];
