@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Ikzath Kalanthar',
-  subtitle: 'Full-Stack Javascript Developer',
+  subtitle: 'Full-Stack Javascript Developer {with a Frontend focus}',
   cta: '',
 };
 
@@ -27,6 +27,16 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  
+  {
+    id: nanoid(),
+      img: 'mern.png',
+      title: 'Restaurant Test App with CRUD functionality',
+      info: 'React, Node JS, Express, Mongo-DB',
+      info2: '',
+      url: 'https://infinite-reef-45760.herokuapp.com/', // if no repo, the button will not show up
+      repo: 'https://github.com/ikzath/RESTAURANT-MERN-STACK-APP',
+    },
 
   {
     id: nanoid(),
@@ -64,17 +74,6 @@ export const projectsData = [
     info2: 'Functionalities- add/delete to basket, total is updated, login or create new account with firebase authentication',
     url: 'https://clone-c369a.web.app/',
     repo: 'https://github.com/ikzath/Amazon-Clone-ReactJS-Firebase', // if no repo, the button will not show up
-  },
-  
-
-{
-  id: nanoid(),
-    img: 'mern.png',
-    title: 'Restaurant Test App with CRUD functionality',
-    info: 'React, Node JS, Express, Mongo-DB',
-    info2: '',
-    url: 'https://infinite-reef-45760.herokuapp.com/', // if no repo, the button will not show up
-    repo: 'https://github.com/ikzath/RESTAURANT-MERN-STACK-APP',
   },
 
 ];
