@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Ikzath Kalanthar',
-  subtitle: 'Full-Stack Javascript Developer [...frontend, ...backend]',
+  subtitle: 'Javascript Developer [...frontend, ...backend]',
   cta: '',
 };
 
@@ -26,18 +26,8 @@ export const aboutData = {
 };
 
 // PROJECTS DATA
-export const projectsData = [
+export const projectsData = [  
   
-  {
-    id: nanoid(),
-      img: 'mern.png',
-      title: 'Restaurant Test App with CRUD functionality',
-      info: 'React, Node JS, Express, Mongo-DB',
-      info2: '',
-      url: 'https://infinite-reef-45760.herokuapp.com/', // if no repo, the button will not show up
-      repo: 'https://github.com/ikzath/RESTAURANT-MERN-STACK-APP',
-    },
-
   {
     id: nanoid(),
     img: 'netflix.png',
@@ -47,7 +37,15 @@ export const projectsData = [
     url: 'https://netflix-clone-4febb.web.app/', // if no repo, the button will not show up
     repo: 'https://github.com/ikzath/netflix-clone.git',
   },
-
+  {
+    id: nanoid(),
+      img: 'mern.png',
+      title: 'Restaurant Test App with CRUD functionality',
+      info: 'React, Node JS, Express, Mongo-DB',
+      info2: '',
+      url: 'https://infinite-reef-45760.herokuapp.com/', // if no repo, the button will not show up
+      repo: 'https://github.com/ikzath/RESTAURANT-MERN-STACK-APP',
+  },
   {
     id: nanoid(),
     img: 'spacex.png',

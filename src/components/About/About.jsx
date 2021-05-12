@@ -47,7 +47,7 @@ const About = () => {
                   'A Full-Stack web developer, qualified lawyer, pro telemarketer, tutor/mentor and future tech entrepreneur.'}
                   </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Passion  HTMT/CSS, JavaScript, React JS, Node JS etc,.'}
+                  {paragraphThree || 'Passion - HTMT/CSS, JavaScript, React JS, Node JS etc,.'}
                 </p>
                 <p className="about-wrapper__info-text"> {para4}
                 </p>
